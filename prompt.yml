@@ -1,0 +1,6 @@
+---
+- name: request user input
+  hosts: local
+  vars_prompt:
+    - name: name
+      prompt: Enter your name
